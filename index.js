@@ -45,6 +45,8 @@ message.author.sendEmbed(embed);
 
   default:
     message.reply("invalid argument, meaning it is not a command! Please type `ub?help` to execute the help menu!");
+            
+            break;
 
     case "ping":
         //console.log(`Pong! ${bot.ping} ms`);
